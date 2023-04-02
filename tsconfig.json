@@ -22,6 +22,6 @@
       "@layout/*": ["layout/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/services/api/index.js"],
   "exclude": ["node_modules"]
 }
