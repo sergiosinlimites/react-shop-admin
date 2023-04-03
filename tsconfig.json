@@ -19,9 +19,11 @@
       "@styles/*": ["styles/*"],
       "@components/*": ["components/*"],
       "@common/*": ["common/*"],
-      "@layout/*": ["layout/*"]
+      "@layout/*": ["layout/*"],
+      "@services/*": ["services/*"],
+      "@hooks/*": ["hooks/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/services/api/index.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/services/api/index.js", "src/hooks/useAuth.tsx"],
   "exclude": ["node_modules"]
 }
